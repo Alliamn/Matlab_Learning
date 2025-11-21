@@ -72,3 +72,12 @@
 % zlabel('z轴');
 % colorbar;
 % grid on
+
+%%Date stream
+% data = magic(3);
+% writematrix(data,'data.csv','DateLocale','D:\Code\Matlab_Code\Learning\Temp_file');
+% writematrix(data,'data.txt','DateLocale','D:\Code\Matlab_Code\Learning\Temp_file');
+% data2 = readtable('data.csv');
+% data3 = readtable('data.txt');
+% data4 = readmatrix('data.csv');
+
